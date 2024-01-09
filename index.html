@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miyoung's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for graphic and WebDesigner Miyoung"
+    />
+    <meta name="author" content="Miyoung" />
+    <link rel="icon" type="image/png" href="imgs/logos/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <div class="ball"></div>
+        <a href="#"><img src="imgs/logos/logo.png" alt="logo" class="logo_miyoung"></a>
+        
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/profile01.jpg"
+          alt="Photo of coding"
+          class="home__avatar"/> 
+        <h1 class="home__title">Hello, <br /><strong>Welcome to my homepage.</strong></h1>
+        <h2 class="home__description">
+        I'm a <b>web developer</b> currently residing in France.<br>I began my career as a graphic designer 
+        and naturally developed an interest in coding languages while practicing web design. 
+      <br>I continue to learn and grow by incorporating these skills into my work. 
+      If you want to know more about me, please feel free to contact me.
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <p>
+        Having performed a variety of jobs through my diverse experience,<br> 
+        I empathize with the challenges of work in each field. As an integration and front-end developer,<br>  
+        I excel in collaborating with designers, back-end developers, and marketing teams.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Web Integrator</h2>
+          <div class="major__description">
+            <strong>HTML, CSS, Bootstrap </strong>
+            <br /> Responsible optimized for mobile phones
+            <br />Storyboard creation using XD, Figma
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-mobile"></i>
+          </div>
+          <h2 class="major__title">Front-end</h2>
+          <p class="major__description">
+            <strong>JavaScript and React</strong>
+            <br />Creates a dynamic site that interacts with users, 
+            <br />and dynamically updates data through API communication.
+          </p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h2 class="major__title">CMS/PHP</h2>
+          <p class="major__description">
+          <br />Create <strong>dynamic and efficient web</strong> pages, 
+          <br />and manage and maintain your data effectively.
+          </p>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/cv.png"
+            alt="samsung"
+            class="job__logo"
+          />
+         <div class="job__description">
+          <p>Starting with my experience in large corporations, I have also worked in agencies and small Companies. <br>Please see my resume for more details. </p>
+           <a href="https://github.com/smy-bs/port_folio_verMi/blob/b3eedb93e78adbb27ff699bec8f111e697c58a2f/imgs/MiyoungBEGONSHIN_CV.pdf" 
+           class="job__description" target="_blank">Resume</a> 
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Passion for learning new technologies. Capable of working within a team environment
+          and independently.<br> Ability to plan and time schedule, work under strict
+          time pressure and adapt quickly when needed.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML&CSS</span>
+                <span>88%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 88%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>75%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Wordpress</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Bootstrap</span>
+                <span>88%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 88%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>PHP/MySQL</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code & sublime text</span></li>
+                <li><span>Indesign & Photoshop & illustrator</span></li>
+                <li><span>Canva & Capcut</span></li>
+                <li><span>XD & Figma</span></li>
+                <li><span>After Effects & Premiere Pro</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Github & Git</span></li>
+                <li><span>Word, excel, powerpoint</span></li>
+                <li><span>Teams & slack & Trello</span></li>
+                <li><span>Google analytics, Google trends & search console</span></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+     <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">8</span>
+        </button>
+        <button class="category__btn" data-filter="Integrator">
+          Integrator <span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="Front-end">
+          Front-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="CMS/PHP">
+          CMS/PHP<span class="category__count">3</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="https://smy-bs.github.io/know/" class="project" target="blank" data-type="Front-end">
+          <img
+            src="imgs/projects/API-JSON.png"
+            alt="internet"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Education HTML template</h3>
+            <span>Loading API/JSON data
+            <br>JavaScript fetch function and display in the user interface.</span>
+          </div>
+        </a>
+        <a
+          href="https://lachauxpaysage.com/"
+          class="project"
+          data-type="CMS/PHP"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/lachauxpaysage_siteinternet.jpg"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Lachaux Paysage</h3>
+            <span>Wordpress and coding with HTML, CSS, JavaScript <br>Team project</span>
+          </div>
+        </a>
+        <a
+          href="https://mx-medical.fr/" class="project" data-type="CMS/PHP" target="blank">
+          <img class="project__img" src="imgs/projects/mxmedical_siteinternet.jpg" alt="mx-medical" />
+          <div class="project__description">
+            <h3>MX-Médical</h3>
+            <span>Wordpress and coding with HTML, CSS <br>Server management</span>
+          </div>
+        </a>
+        <a href="https://smy-bs.github.io/Number-Matching-Game/" class="project" data-type="Front-end">
+          <img class="project__img" src="imgs/projects/screencapture-Number-Matching-Game.png" alt="Number-Matching-Game" />
+          <div class="project__description">
+            <h3>Number-Matching-Game</h3>
+            <span>Create with JavaScript - <br>C'est un jeu de devinette de chiffres !</span>
+          </div>
+        </a>
+        <a href="https://smy-bs.github.io/woolala-media/" class="project" data-type="Integrator" target="blank">
+          <img class="project__img" src="imgs/projects/p1.png" alt="catalogue" />
+          <div class="project__description">
+            <h3>Woolala-media</h3>
+            <span>Project PotCast <br> Design UI,html,CSS,JavaScript</span>
+          </div>
+        </a>
+        <a href="https://smy-bs.github.io/To-Do-List/" class="project" data-type="Front-end" target="blank">
+          <img class="project__img" src="imgs/projects/Todolist_desktop.jpg" alt="" />
+          <div class="project__description">
+            <h3>To Do List</h3>
+            <span>Coding with HTML,CSS<br>Vanila JavaScript</span>
+          </div>
+        </a>
+        <a href="https://github.com/smy-bs/theArtbox" class="project" data-type="CMS/PHP" target="blank">
+          <img class="project__img" src="imgs/projects/theartbox.png" alt="" />
+          <div class="project__description">
+            <h3>The art box</h3>
+            <span>Develop in PHP using the fundamentals of the language.</span>
+          </div>
+        </a>
+        <a href="https://smy-bs.github.io/booki/" class="project" data-type="Integrator"target="blank">
+          <img class="project__img" src="imgs/projects/booki.png" alt="" />
+          <div class="project__description">
+            <h3>Booki</h3>
+            <span>Integrate content according to a mock-up with validated HTML and CSS & JavaScript</span>
+          </div>
+        </a>
+      </div>
+     </div>
+    </section>
+
+    
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email"><a class="mailto" href="mailto:bs.miyoung@gmail.com">Send to mail</a></h2>
+      <div class="contact__links">
+        <a href="https://github.com/smy-bs" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/miyoung-shin-begon-074478186/" target="_blank">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        2024 Miyoung BS - All rights reserved
+      </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
