@@ -20,7 +20,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-  </head>
+     </head>
   <body>
     <!-- Navbar -->
     <nav id="navbar">
@@ -45,20 +45,30 @@
 
     <!-- Home -->
     <section id="home">
-      <div class="home__container">
+      <div id="banner">
         <img
-          src="imgs/profile01.jpg"
-          alt="Photo of coding"
-          class="home__avatar"/> 
-        <h1 class="home__title">Hello, <br /><strong>Welcome to my homepage.</strong></h1>
-        <h2 class="home__description">
-        I'm a <b>web developer</b> currently residing in France.<br>I began my career as a graphic designer 
-        and naturally developed an interest in coding languages while practicing web design. 
-      <br>I continue to learn and grow by incorporating these skills into my work. 
-      If you want to know more about me, please feel free to contact me.
-        </h2>
-        <button class="home__contact">Contact Me</button>
-      </div>
+          class="banner-img"
+          src="./imgs/slideshow/img1.jpg"
+          alt="Banner"
+        />
+        <p class="banner-tagline"> WebDeveloper <span>Miyoung</span>who grows every day </p>
+            <img src="./imgs/slideshow/arrow_left.png"
+			class="arrow_left arrow"
+            alt="arrow_left"
+            aria-pressed="false"
+            role="button"
+          />
+          <img
+            src="./imgs/slideshow/arrow_right.png"
+			class="arrow_right arrow"
+            alt="arrow_right"
+            aria-pressed="false"
+            role="button"
+          />
+     
+        <div class="dots"><i class="fa-solid fa-circle dot"></i></div>
+     
+            </div>
     </section>
 
     <!-- About -->
@@ -328,5 +338,6 @@
     <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>
     </button>
+    <script src="script.js"></script>
   </body>
 </html>
