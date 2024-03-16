@@ -174,8 +174,9 @@ p {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	min-height: 470px;
+	min-height:35rem;
 	position: relative;
+
 }
 .banner-img {
 	position: absolute;
@@ -184,6 +185,7 @@ p {
 	z-index: -1;
 	object-fit: cover;
 	object-position: center;
+
 }
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
@@ -199,21 +201,21 @@ p {
 /* Gestion des points du carrousel */
 .dots {
 	position: absolute;
-	bottom: 40px;
+	bottom: 60px;
 	display: flex;
-  top:500px;
+  top:580px;
 }
 .dot {
 	margin-inline: 5px;
-	width: 13px;
-	height: 13px;
-	background-color:var(--color-black);
-	border: 3px solid #fff;
+	width: 20px;
+	height: 20px;
+	background-color:var(--color-white);
+	border: 3px solid pink;
 	border-radius: 100%;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dot_selected {
-	background-color: #fff;
+	background-color:var(--color-blue);
 }
 /* Fin du code CSS pour le carousel */
 #banner p {
