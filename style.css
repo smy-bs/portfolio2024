@@ -552,7 +552,9 @@ p {
     display: block;
   }
 /* banner */
-
+#banner{
+  top:-14px;
+}
 #banner .arrow_left {
 	display:none;
 }
